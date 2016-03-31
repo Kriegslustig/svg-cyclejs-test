@@ -28,13 +28,14 @@ module.exports = {
     },
     {
       test: /\.css$/,
-      loader:
-        (dev
-          ? 'css-loader?-minimize!postcss-loader'
-          : 'css-loader?minimize!postcss-loader'
-        )
+      loader: dev
+        ? 'css-loader?-minimize!postcss-loader'
+        : 'css-loader?minimize!postcss-loader'
     }
   ] },
+  devtool: dev
+    ? '#source-map'
+    : '',
   postcss: () => [autoprefixer]
 }
 
