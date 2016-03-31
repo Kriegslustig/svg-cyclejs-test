@@ -1,0 +1,19 @@
+{
+  "name": "svg-cyclejs-test",
+  "version": "0.1.0",
+  "description": "A simple chart to test cycle.js with svg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kriegslustig/svg-cyclejs-test.git"
+  },
+  "author": "Kriegslustig <npm@ls7.ch>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kriegslustig/svg-cyclejs-test/issues"
+  },
+  "homepage": "https://github.com/Kriegslustig/svg-cyclejs-test#readme"
+}
